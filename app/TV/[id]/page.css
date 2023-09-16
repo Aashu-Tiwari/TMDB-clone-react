@@ -1,0 +1,180 @@
+.main{
+    height: 50vh;
+    width: 100%;
+}
+.background{
+    margin-top: 0px;
+    position: relative;
+}
+.background img{
+    margin-left: 450px;
+    height: 80vh;
+    width: 70%;
+    object-fit: top;
+}
+.leftposter{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 30%;
+    background-color: #272a43;
+}
+.leftimg{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 90%;
+    width: 70%;
+    /* background-color: red; */
+    border-radius: 10px;
+}
+.stream{
+    position: absolute;
+    bottom: 0%;
+    height: 12%;
+    width: 100%;
+    background-color: #032541;
+}
+.stream .img{
+    height: 20px ;
+    width: 20px;
+    background-color: #fff;
+    margin-left: 80px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.text{
+    margin-top: -33px;
+    margin-left: 140px;
+}
+.text p{
+    color: #fff;
+    font-size: 15px;
+    font-family: "gilroy";
+    font-weight: 400;
+    width: 30px;
+    white-space: nowrap;
+    margin-top: -10px;
+}
+.text h6{
+    color: #fff;
+    font-weight: 600;
+    font-family: "gilroy";
+    margin-top: -20px;
+}
+.overlay{
+    background-color: #222848be;
+    height: 80vh;
+    margin-left: 450px;
+    width: 70%;
+    top: 0%;
+    position: absolute;
+    z-index: 1;
+    padding: 100px 50px;
+}
+.overlay h1{
+    color: #fff;
+    font-size: 33px;
+    font-family: "gilroy";
+    font-weight: 800;
+}
+.overlay h1:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.overlay .tvpg{
+    margin-top: -10px;
+    border: 1px solid #fff;
+    opacity: .5;
+    height: 30px;
+    width: 60px;
+}
+.overlay .tvpg p{
+    color: #fff;
+    margin-left: 5px;
+}
+.icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icons .one{
+    height: 50px;
+    width: 50px;
+    background-color: #032541;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons .one i{
+    color: #fff;
+}
+.icons .one:hover{
+    cursor: pointer;
+}
+.play {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play i{
+    color: #fff;
+    font-size: 25px;
+}
+.play:hover{
+    cursor: pointer;
+    opacity: .5;
+}
+.play p{
+    color: #fff;
+    font-family: "gilroy";
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+.overview h1{
+    font-size: 25px;
+    /* font-family: "gilroy"; */
+    font-weight: 600;
+    letter-spacing: .5px;
+    margin-top: 35px;
+}
+.overview p{
+    color: #fff;
+    font-family: "gilroy";
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.overview h4{
+    color: #fff;
+    opacity: .5;
+    font-family: "gilroy";
+}
+.drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.drop p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "gilroy";
+}
+.oicon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.oicon p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.oicon i{
+    margin-top: 7px;
+    font-size: 20px;
+}

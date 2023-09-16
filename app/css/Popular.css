@@ -1,0 +1,11 @@
+.pop h1{
+    font-family: "gilroy";
+    font-size: 25px;
+    font-weight: 600;
+}
+.pop{
+    padding: 50px 100px;
+}
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,57 @@
+.top-banner{
+    width: 98.9vw;
+    height: 55vh;
+    background-image: linear-gradient(to right, rgba(3, 57, 101, 0.8) 0%, rgba(3,37,65, 0) 100%), url("https://image.tmdb.org/t/p/w500/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg");
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: last baseline;
+    justify-content: baseline;
+    padding-left: 3%;
+}
+.top-banner .content{
+    width: 80%;
+    height: 85%;
+    text-align: start;
+}
+.top-banner .content h1{
+    margin-top: 4%;
+    font-size: 44px;
+    color: aliceblue;
+}
+.top-banner .content span{
+    font-size: 32px;
+    color: aliceblue;
+}
+.top-banner .content .serch{
+    width: 77vw;
+    height: 8vh;
+    background-color: white;
+    margin-top: 6%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.top-banner .content .serch input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    color: black;
+    padding-left: 2%;
+    font-size: 17px;
+    outline: none;
+    border: none;
+}
+.top-banner .content .serch button{
+    width: 10%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(30,213,169,1) 0%,rgba(1,180,228,1) 100%);
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}

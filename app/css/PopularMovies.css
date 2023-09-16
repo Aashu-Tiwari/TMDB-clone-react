@@ -1,0 +1,62 @@
+.main2{
+    display: flex;
+}
+.leftPop h1{
+    font-family: 'gilroy';
+    font-size: 29px;
+    font-weight: 600;
+}
+.leftPop{
+    padding: 40px 100px;
+}
+.l1{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 300px;
+    border: 1px solid rgba(6, 17, 223, 0.499);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.l1 h6{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.l1 i{
+    font-size: 20px;
+}
+.leftPop button{
+    background-color: #ECECEC;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-left: 20px;
+}
+.right {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-wrap: wrap;
+}
+.card {
+    border: none;
+    height: 370px;
+    width: 200px;
+}
+.card img{
+    height: 260px;
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.name{
+    text-wrap: wrap;
+    font-size: 17px;
+    font-family: "gilroy";
+    font-weight: 600;
+} 
