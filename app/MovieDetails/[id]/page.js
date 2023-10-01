@@ -36,7 +36,7 @@ const page = (para) => {
             if (res.status == 200) {
               setmovieDetails(res.data);
             }
-            // console.log(res.data);
+            console.log(res.data);
           })
       }, [movieId]);
       const backgroundposterStyle = {

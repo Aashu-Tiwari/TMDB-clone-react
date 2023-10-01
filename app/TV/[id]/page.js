@@ -134,7 +134,7 @@ const page = (para) => {
             {dropover3 && <Dropdownover3/>}
 
         </div>
-        <div className="main">
+        <div className="main4">
             <div className="background">
                 <img src={`https://image.tmdb.org/t/p/w500/${tvDetails.backdrop_path}`} alt="" />
                 <div className="overlay">

@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Dropdownmenu from '@/Dropdown/Dropdownmenu';
-import Logoimg from '../images/tmdb.png';
+// import Logoimg from '../images/tmdb.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import '@/app/css/Header.css'

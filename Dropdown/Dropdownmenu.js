@@ -7,10 +7,10 @@ import '@/app/css/Dropdown.css'
 const Dropdownmenu = () => {
   return (
     <div>
-        <ul className='mt-4' style={{zIndex:"1",position:"absolute",marginLeft:"-70px",position:"absolute",height:"100px", width:"200px", borderRadius:"10px" , whiteSpace:"nowrap" ,backgroundColor:'white' , fontWeight:"400"}}>
-            <Link href={"/PopularMovies"}><li className='popul cursor-pointer' style={{color:"black",fontSize:"15px",marginTop:"10px",textDecoration:"none"}}>Popular</li></Link>
-            <Link href={"/Nowplaying"} ><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Now Playing</li></Link>
-            <Link href={"/Toprated"}><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Top Rated</li></Link>
+        <ul className='mt-4 text-decoration-none' style={{zIndex:"1",position:"absolute",marginLeft:"-70px",position:"absolute",height:"100px", width:"200px", borderRadius:"10px" , whiteSpace:"nowrap" ,backgroundColor:'white' , fontWeight:"400"}}>
+            <a href={"/PopularMovies"}><li className='popul cursor-pointer text-decoration-none' style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Popular</li></a>
+            <a href={"/Nowplaying"} ><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Now Playing</li></a>
+            <a href={"/Toprated"}><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Top Rated</li></a>
         </ul>
     </div>
   )
@@ -34,7 +34,7 @@ export const Dropdownmenu3 = () => {
     return (
       <div>
           <ul className='mt-4' style={{zIndex:"1",position:"absolute",marginLeft:"-70px",position:"absolute",height:"50px", width:"250px", borderRadius:"10px" , whiteSpace:"nowrap" ,backgroundColor:'white' , fontWeight:"400"}}>
-              <li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Popular People</li>
+              <a href="#"><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Popular People</li></a>
           </ul>
       </div>
     )
@@ -44,10 +44,10 @@ export const Dropdownmenu3 = () => {
     return (
       <div>
           <ul className='mt-4' style={{zIndex:"1",position:"absolute",marginLeft:"-70px",position:"absolute",height:"120px", width:"200px", borderRadius:"10px" , whiteSpace:"nowrap" ,backgroundColor:'white' , fontWeight:"400"}}>
-              <li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Discussion</li>
-              <li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Leaderboard</li>
-              <li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Support</li>
-              <li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Api</li>
+              <a href="#"><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Leaderboard</li></a>
+              <a href="#"><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Discussion</li></a>
+              <a href="#"><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Support</li></a>
+              <a href="#"><li style={{color:"black",fontSize:"15px",marginTop:"10px"}}>Api</li></a>
           </ul>
       </div>
     )

@@ -80,7 +80,7 @@
 .boxotop i{
     position: absolute;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 3rem;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -92,4 +92,5 @@
 }
 .boxotop i:hover{
     cursor: pointer;
+    scale: 1.1;
 }

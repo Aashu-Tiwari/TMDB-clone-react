@@ -22,7 +22,7 @@ const PopularMovies = () => {
             })
     }, [page]);
   return (
-    <div className='main'>
+    <div className='main3'>
       <Header/>
       <div className='main2'>
         <div className='leftPop'>
