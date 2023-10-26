@@ -1,4 +1,3 @@
-"use client"
 import './globals.css'
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'remixicon/fonts/remixicon.css'
