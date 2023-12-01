@@ -42,3 +42,18 @@
     font-size: 15px;
     opacity: .8;
 }
+@media only screen and (max-width: 1024px) {
+    .cover{
+      width: 112%;
+      margin-left: -20px;
+    }
+    .p h1{
+        margin-left: -44px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .cover{
+      width: 282%;
+    }
+  }

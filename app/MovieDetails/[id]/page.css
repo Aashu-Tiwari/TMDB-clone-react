@@ -177,3 +177,45 @@
     margin-top: 7px;
     font-size: 20px;
 }
+@media only screen and (max-width: 1024px) {
+    .main{
+        width: 86%;
+    }
+    .leftposter{
+        width: 52%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .drop{
+        width: 175%;
+    }
+    .background{
+        width: 131%;
+    }
+    .background img{
+        height: 126vh;
+    }
+    .overlay{
+        height: 126vh;
+    }
+    .leftposter{
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .background{
+        width: 75%;
+    }
+    .background img{
+        height: 95vh;
+    }
+    .overlay{
+        height: 95vh;
+    }
+    .leftposter{
+        width: 94%;
+    }
+}
+

@@ -3,9 +3,32 @@
     font-size: 25px;
     font-weight: 600;
 }
+#cover_pop{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: 400px;
+    overflow-x: scroll;
+}
 .pop{
     padding: 50px 100px;
 }
 ::-webkit-scrollbar{
     display: none;
 }
+@media only screen and (max-width: 1024px) {
+    #cover_pop{
+      margin-left: 54px;
+    }
+    .pop h1{
+        margin-left: -42px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    #cover_pop{
+      width: 157%;
+    }
+  }

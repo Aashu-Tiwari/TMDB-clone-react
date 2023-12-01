@@ -94,3 +94,16 @@ html,body{
     font-size: 15px;
     color: rgba(0, 0, 0, 0.263);
 }
+
+
+@media only screen and (max-width: 700px) {
+    .full{
+        width: 177%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .full{
+        width: 95%;
+    }
+}

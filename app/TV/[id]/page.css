@@ -18,6 +18,7 @@
     height: 100%;
     width: 30%;
     background-color: #272a43;
+    object-fit: cover;
 }
 .leftimg{
     position: relative;
@@ -177,4 +178,55 @@
 .oicon i{
     margin-top: 7px;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main{
+        width: 85%;
+    }
+    .leftposter{
+        width: 52%;
+    }
+    .background{
+        width: 87%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .drop{
+        width: 175%;
+    }
+    .background{
+        width: 131%;
+        margin-left: -50px;
+
+    }
+    .background img{
+        height: 126vh;
+    }
+    .overlay{
+        height: 126vh;
+    }
+    .leftposter{
+        width: 85%;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .background{
+        width: 75%;
+        margin-left: -50px;
+
+    }
+    .background img{
+        height: 95vh;
+    }
+    .overlay{
+        height: 95vh;
+    }
+    .leftposter{
+        width: 85%;
+    }
 }

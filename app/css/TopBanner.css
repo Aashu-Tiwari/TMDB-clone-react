@@ -67,3 +67,20 @@
     color: darkblue;
 
 }
+@media only screen and (max-width: 1024px) {
+    .top-banner{
+      margin-left: 54px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .top-banner{
+      width: 157.9vw;
+    }
+    .top-banner .content .serch{
+        width: 130vw;
+    }
+    .top-banner .content .serch a{
+        width: 23%;
+    }
+  }

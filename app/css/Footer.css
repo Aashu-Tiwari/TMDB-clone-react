@@ -77,3 +77,27 @@
     font-family: "gilroy";
     font-weight: 400;
 }
+@media only screen and (max-width: 1024px) {
+    .footer{
+      width: 105%;
+    }
+    .inner_footer{
+        margin-left: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .footer{
+      width: 185%;
+      height: 62vh;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .footer{
+      height: 65vh;
+    }
+    
+  }

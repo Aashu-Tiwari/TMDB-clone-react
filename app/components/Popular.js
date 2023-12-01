@@ -21,7 +21,7 @@ const Popular = () => {
   return (
     <div>
     <div className='pop' style={{marginTop:"0px"}}><h1>What's Popular</h1></div>
-    <div className='cover container'>
+    <div id='cover_pop' className='cover container'>
         {popular.length>0?
             popular.map((item)=>{
             return(

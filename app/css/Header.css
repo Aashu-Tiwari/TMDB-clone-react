@@ -1,1 +1,44 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.nav2{
+  margin-left: -22px;
+}
+#h_interior h4{
+  font-size: 16px;
+}
+#h_bg{
+  padding: 0px 100px;
+}
+@media only screen and (max-width: 1024px) {
+  #h_bg{
+    width: 104.5%;
+  }
+}
 
+@media only screen and (max-width: 700px) {
+  #h_bg{
+    width: 184.5%;
+    padding: 0px 10px;
+  }
+  #h_interior h4{
+    font-size: 13px;
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #h_bg{
+    padding: 0px 10px;
+  }
+  #h_interior h4{
+    font-size: 13px;
+    white-space: nowrap;
+  }
+}
