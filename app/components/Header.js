@@ -67,7 +67,7 @@ export const Header = () => {
                 </div>
                 <i style={{color:"white",fontSize:"23px",hover:"cursor:pointer"}} className="ri-notification-line cursor-pointer"></i>
                 <div className='circle w-8 h-8 cursor-pointer' onMouseEnter={handleMouseEnterlogin} onMouseLeave={handleMouseLeavelogin} style={{borderRadius:"50%",backgroundColor:"#01B4E4",display:"flex",alignItems:"center",justifyContent:"center"}}> {isDropdownVisiblelogin && <Dropdownlogin />}
-                  <p className='mt-3 fs-6 text-light fw-600 mb-3' style={{position:"absolute"}}>A</p> 
+                  <p className='fs-6 text-light fw-600 mb-3' style={{position:"absolute"}}>A</p> 
                 </div>
                 <i className="ri-search-line fs-4 mb-1 cursor-pointer" style={{color:'#01B4E4'}}></i>
           </div>
